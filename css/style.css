@@ -1,1 +1,116 @@
+body {
+   margin: 0;
+}
 
+header, footer, .contact_container {
+  padding: 3% 5% 2% 5%;
+  text-align: center;
+}
+
+main {
+  padding: 1% 15% 1% 15%;
+  text-align: center;
+}
+
+
+nav {
+  padding-top: 1em;
+  height: 3em;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 2em;
+}
+
+#no_border {
+  border: none;
+}
+
+ .contact{
+  width: 40%;
+  display: inline-block;
+  padding: 0 1em;
+}
+
+/* immagini */
+
+
+/* colors and font */
+
+body {
+  color: rgba(0,0,0,.6);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 1.5em;
+}
+
+header , footer {
+  background-color: #1b5e20;
+  color:white;
+}
+
+main {
+  background-color: #e0dbd8;
+  color: #003300;
+} 
+
+.block_4 {
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4c8c4a;
+  color: white;
+  padding: 1em 2em;
+  border:none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.02em;
+}
+
+/* icon */
+
+.fa-globe-americas {
+  font-size: 3em;
+  display: inline-block;
+}
+
+.fa-envelope {
+  font-size: 2em; 
+  color: #4c8c4a; 
+}
+
+
+.fa-map-marker-alt {
+  font-size: 2em; 
+  color: #4c8c4a;
+}
+
+.fa-instagram {
+  font-size: 2em;
+  color: #4c8c4a;
+ } 
+
+ .fa-spotify {
+  font-size: 2em;
+  color: #4c8c4a;
+ } 
+
+
+/* links*/
+
+a {
+  color: white;
+}
+
+a:hover {
+text-decoration: underline;
+}
